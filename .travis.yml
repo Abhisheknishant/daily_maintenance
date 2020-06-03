@@ -1,7 +1,9 @@
 language: c
 sudo: false
 service: docker
-
+arch:
+    - amd64
+    - arm64
 env:
   global:
    - PATH=~/.roswell/bin:$PATH
